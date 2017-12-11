@@ -115,36 +115,19 @@ h2 {
     padding: 1rem 0 0.7rem 0;
 }
 
-/*.card-gallery {
-    /*border: 1px solid white;
-    width: 300px;
-    height: 200px;
-    margin: 0 auto;
-}*/
 .card-gallery {
     width: 100%;
     margin: 0 auto;
 }
-.box-separator figure {
-   
-}
-
-
 
 .more-information {
-    padding: 10px 0 10px 15px;
-    /*border: 1px solid rgb(148, 148, 148);*/
-    
+    padding: 10px 0 10px 15px;    
 }
 
 /*STYLE FOR THE FOOTER*/
 footer {
     padding: 2rem;
 }
-  
-/*.col-section {
-    width: 100%;
-}*/
 
 .view-mobile {
     display: block;
@@ -164,21 +147,7 @@ ul li {
 /*GRID MOVIL AND DESKTOP*/
 /*GRID MOVIL/ TABLET Esto hace que sea responsive*/
 @media (min-width: 768px) {
-    /*.col-section {
-     width: 50%;
-     float: left;
-   }*/
-   
-    /*.box-separator {
-    color: #393939;
-    padding: 3rem 1.5rem;
-    display: inline-block;
-    align-self: center;
-        }*/
-        
-        .box-separator  {
-            width: 80%;
-        }
+      
    section {
      overflow: auto;
      display: flex;
@@ -198,7 +167,5 @@ ul li {
  
  /*GRID DESKTOP*/
  @media (min-width: 1200px) {
-   /*section{
-     margin: 0 10rem;
-   }*/
+   
  }

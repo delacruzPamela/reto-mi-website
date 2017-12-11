@@ -18,6 +18,10 @@
 
 ## PRODUCTO FINAL
 
-* Vista desde la ventana del navegador a medida se haga más pequeña.
+* Vista desde la ventana del navegador desktop a medida se haga más pequeña.
 
 ![recursos](assets/images/final.png)
+
+* Vista desde la ventana del navegador móvil a medida se haga más pequeña.
+
+![recursos](assets/images/movil.png)
