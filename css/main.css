@@ -119,15 +119,22 @@ h2 {
     padding: 1rem 0 0.7rem 0;
   }
 
+  .text-rock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .card-gallery {
-    border: 1px solid white;
+    /*border: 1px solid white;*/
+    width: 300px;;
+    height: 200px;;
     margin: 0 auto;
-    width: 100%;
 }
 
 .box {
     border: 1px solid rgb(148, 148, 148);
-    margin: 5px 5px 5px 0;
+    /*margin: 5px 5px 5px 0;*/
 }
 
 .more-information {
@@ -172,13 +179,6 @@ ul li {
      overflow: auto;
      display: flex;
    }
- 
-   .text-rock {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-   }
- 
    .overlay {
      padding: 10rem 0;
    }
