@@ -102,10 +102,6 @@ h2 {
     padding: 5rem 0;
   }
 
-.container {
-    
-}
-
 /*STYLE FOR THE SECTIONS*/
 .text-separador, img {
     color: #393939;
@@ -117,29 +113,27 @@ h2 {
 .text-separador p {
     line-height: 1.5;
     padding: 1rem 0 0.7rem 0;
-  }
-
-  .text-rock {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
+/*.card-gallery {
+    /*border: 1px solid white;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}*/
 .card-gallery {
-    /*border: 1px solid white;*/
-    width: 300px;;
-    height: 200px;;
+    width: 100%;
     margin: 0 auto;
 }
-
-.box {
-    border: 1px solid rgb(148, 148, 148);
-    /*margin: 5px 5px 5px 0;*/
+.box-separator figure {
+   
 }
+
+
 
 .more-information {
     padding: 10px 0 10px 15px;
-    border: 1px solid rgb(148, 148, 148);
+    /*border: 1px solid rgb(148, 148, 148);*/
     
 }
 
@@ -148,9 +142,9 @@ footer {
     padding: 2rem;
 }
   
-.col-section {
+/*.col-section {
     width: 100%;
-}
+}*/
 
 .view-mobile {
     display: block;
@@ -170,11 +164,21 @@ ul li {
 /*GRID MOVIL AND DESKTOP*/
 /*GRID MOVIL/ TABLET Esto hace que sea responsive*/
 @media (min-width: 768px) {
-    .col-section {
+    /*.col-section {
      width: 50%;
      float: left;
-   }
- 
+   }*/
+   
+    /*.box-separator {
+    color: #393939;
+    padding: 3rem 1.5rem;
+    display: inline-block;
+    align-self: center;
+        }*/
+        
+        .box-separator  {
+            width: 80%;
+        }
    section {
      overflow: auto;
      display: flex;
@@ -194,7 +198,7 @@ ul li {
  
  /*GRID DESKTOP*/
  @media (min-width: 1200px) {
-   section{
+   /*section{
      margin: 0 10rem;
-   }
+   }*/
  }
